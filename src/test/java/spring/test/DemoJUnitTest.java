@@ -8,7 +8,7 @@ public class DemoJUnitTest {
     @Test
     public void demoTest() {
         int a = (int) Math.random() * 10;
-        boolean b = a < 8;
+        boolean b = a > 10;
         Assert.assertTrue(b);
     }
 
